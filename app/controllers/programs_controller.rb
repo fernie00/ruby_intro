@@ -2,7 +2,8 @@ class ProgramsController < ApplicationController
   def home
     # Your code goes below.
 
-    @your_output = "Replace this string with your output"
+    @your_output = "My Ouptput is not to be inputed"
+  
 
     render("programs/home.html.erb")
   end
@@ -10,7 +11,7 @@ class ProgramsController < ApplicationController
   def first_program
     # Your code goes below.
 
-    @your_output = "Replace this string with your output"
+    @your_output = "First Program output changed"
 
     render("programs/first_program.html.erb")
   end
